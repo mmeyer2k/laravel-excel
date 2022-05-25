@@ -21,7 +21,7 @@ Made with :heart: by [Cyber-Duck Ltd](http://www.cyber-duck.co.uk)
 ## Installation
 Use composer to download the package:
 ```
-composer require mmeyer2k/laravel-excel
+composer require cyber-duck/laravel-excel
 ```
 
 ### Laravel 4.x
