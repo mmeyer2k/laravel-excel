@@ -1,3 +1,6 @@
+A fork of cyber-duck/laravel-excel with proper PHP support [PR #22](https://github.com/Cyber-Duck/laravel-excel/pull/22).
+***
+
 # Laravel Excel
 [![Latest Stable Version](https://poser.pugx.org/cyber-duck/laravel-excel/v/stable)](https://packagist.org/packages/cyber-duck/laravel-excel)
 [![Total Downloads](https://poser.pugx.org/cyber-duck/laravel-excel/downloads)](https://packagist.org/packages/cyber-duck/laravel-excel)
@@ -18,7 +21,7 @@ Made with :heart: by [Cyber-Duck Ltd](http://www.cyber-duck.co.uk)
 ## Installation
 Use composer to download the package:
 ```
-composer require cyber-duck/laravel-excel
+composer require mmeyer2k/laravel-excel
 ```
 
 ### Laravel 4.x
