@@ -1,4 +1,20 @@
-A fork of cyber-duck/laravel-excel with proper PHP support [PR #22](https://github.com/Cyber-Duck/laravel-excel/pull/22).
+A fork of cyber-duck/laravel-excel with extended support.
+
+Add custom repo to composer.json.
+```json
+"repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/mmeyer2k/laravel-excel"
+    }
+]
+```
+
+The install package
+```bash
+composer require cyber-duck/laravel-excel
+```
+
 ***
 
 # Laravel Excel
