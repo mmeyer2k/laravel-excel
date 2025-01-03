@@ -162,10 +162,11 @@ abstract class AbstractSpreadsheet implements ImporterInterface
     protected function open()
     {
         $reader = $this->createReader();
-        $reader->open($this->path);
-        $this->callbacks->each(function ($elem) use (&$writer) {
-            call_user_func_array(array($writer, $elem[0]), $elem[1]);
+        $this->callbacks->each(function ($elem) use (&reader) {
+            call_user_func_array(array($reader, $elem[0]), $elem[1]);
         });
+        $reader->open($this->path);
+        
         return $reader;
     }
 }
